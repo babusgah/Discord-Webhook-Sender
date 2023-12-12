@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Webhook Message Sender</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Webhook Message Sender</h1>
+    <form id="webhookForm">
+      <label for="webhookURL">Webhook URL:</label>
+      <input type="text" id="webhookURL" placeholder="Enter webhook URL" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" placeholder="Enter message" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <button id="deleteWebhookBtn">Delete Webhook</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
